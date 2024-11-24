@@ -8,6 +8,13 @@ const total = numbers.reduce(function(acc, currentValue){
 console.log(total);
 
 
+// function reduceArr(accumulator, currentItem){
+//   return accumulator + currentItem;
+// }
+// const sum = numbers.reduce(reduceArr, 0);
+// console.log(sum);
+
+
 // 2) Using reduce() method with an initial value
 
 const cart = [
@@ -19,7 +26,7 @@ const cart = [
     {
       product: 'Screen Protector',
       qty: 1,
-      price: 10,
+      price: 100,
     },
     {
       product: 'Memory Card',
@@ -29,8 +36,7 @@ const cart = [
 ];
 
 function reducer(acc, currentItem){
-    return acc + (currentItem.qty * currentItem.price);
+  return acc + (currentItem.qty * currentItem.price);
 }
-
 const cartTotal = cart.reduce(reducer, 0);
 console.log(cartTotal);
