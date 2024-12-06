@@ -40,3 +40,6 @@ function reducer(acc, currentItem){
 }
 const cartTotal = cart.reduce(reducer, 0);
 console.log(cartTotal);
+
+
+
