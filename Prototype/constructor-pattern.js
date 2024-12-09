@@ -7,8 +7,11 @@ Person.prototype.getFullName = function () {
     return `${this.firstName} ${this.lastName}`;
 }
 
+
 const p1 = new Person('Saiful', 'Islam');
 console.log(p1.getFullName());
+
+
 
 /************* ====== Inheritance ==== ********* */
 const obj1 = {
