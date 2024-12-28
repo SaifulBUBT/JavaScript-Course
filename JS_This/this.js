@@ -19,7 +19,7 @@ player.sleep = function(){
 function playerName (){
     console.log(this)
 }
-//playerName()
+playerName()
 
 
 /***************** */
