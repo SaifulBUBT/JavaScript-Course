@@ -62,6 +62,6 @@ class User {
 const user = new User('bob@gmail.com', 'Bob123');
 console.log(user.email);
 
-user.password = 90987;
+user.password = 'pass_1234';
 console.log(user.password);
 
